@@ -17,16 +17,19 @@
 
 # 📖 Bibliotecas usadas
 + selenium
+
   ```
   pip install selenium
   ```
 # ⚙️ Configurações
 
 + Inicie o programa em:
+
     ```
     python app.py
     ```
 + Baixar
+
     ```
     git clone https://github.com/ArkaNiightt/instagram-page-bot-like.git
     ```
