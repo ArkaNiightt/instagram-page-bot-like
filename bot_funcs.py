@@ -2,12 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from time import sleep
 from util_xpath import Dados_Page_Xpath
-from base_web_selenium import (
-    iniciar_driver,
-    input_driver_break,
-    simular_digitacao_lentamente,
-)
-from base_utils import clear_terminal
+from base_web_selenium import iniciar_driver, input_driver_break
+from base_utils import clear_terminal, simular_digitacao_lentamente
 
 
 def input_accout_instagram_user():
@@ -94,7 +90,7 @@ def visit_account_find_page(driver: vars, wait: vars, dados_xpath: Dados_Page_Xp
         try:
             check_curtida = driver.find_element(
                 By.XPATH,
-                "//section[@class='_aamu _ae3_ _ae47 _ae48']//span[@class='_aamw']//div[@role='button']//*[text()='Curtir']",
+                dados_xpath.publi_check_curtida,
             )
         except:
             check_curtida is None

@@ -6,6 +6,7 @@ class Dados_Page_Xpath:
     button_pesquisa = "svg[aria-label='Pesquisa']"
     publics_posts_list = "//div[@class='_aagw']"
     publi_curtir = "//section[@class='_aamu _ae3_ _ae47 _ae48']//span[@class='_aamw']//div[@role='button']"
+    publi_check_curtida = "//section[@class='_aamu _ae3_ _ae47 _ae48']//span[@class='_aamw']//div[@role='button']//*[text()='Curtir']"
 
     def __init__(
         self,
