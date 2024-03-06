@@ -13,7 +13,8 @@
   </div>
         
 # 🧾Descrição 
-+ Programa focado em curtir a ultima publicação de um perfil
++ Este repositório contém um programa Python para curtir automaticamente a última publicação de um perfil no Instagram, usando técnicas de web scraping. Ideal para explorar automação em redes sociais, mas lembre-se de usar com responsabilidade, respeitando as políticas da plataforma.
+
 
 # 📖 Bibliotecas usadas
 + selenium
